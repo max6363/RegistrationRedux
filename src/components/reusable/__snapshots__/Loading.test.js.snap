@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test LoadingView can test LoadingView with text 1`] = `ShallowWrapper {}`;
+
+exports[`Test LoadingView can test LoadingView without text 1`] = `ShallowWrapper {}`;

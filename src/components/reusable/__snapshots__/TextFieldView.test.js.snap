@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test TextFieldView can test TextFieldView with props (error is null) 1`] = `ShallowWrapper {}`;
+
+exports[`Test TextFieldView can test TextFieldView with props 1`] = `ShallowWrapper {}`;

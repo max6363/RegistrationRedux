@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Button can test Button with title (Disabled) 1`] = `ShallowWrapper {}`;
+
+exports[`Test Button can test Button with title (Enabled) 1`] = `ShallowWrapper {}`;

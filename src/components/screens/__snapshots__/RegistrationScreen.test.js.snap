@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Registration Screen Tests can test Registration Page (with loading) 1`] = `
+"<View style={{...}}>
+  <ForwardRef(SafeAreaView)>
+    <ScrollView>
+      <TextFieldView textInputTestID=\\"tfUsername\\" label=\\"Username*\\" text=\\"\\" error={[Function: error]} onChangeText={[Function: onChangeText]} onBlur={[Function: onBlur]} onFocus={[Function: onFocus]} />
+      <TextFieldView textInputTestID=\\"tfPassword\\" isSecure={true} isSecureTextVisible={false} isSecureTextField={true} onPasswordShowHideButtonPress={[Function: onPasswordShowHideButtonPress]} label=\\"Password*\\" text=\\"\\" error={[Function: error]} onChangeText={[Function: onChangeText]} onBlur={[Function: onBlur]} onFocus={[Function: onFocus]} />
+      <TextFieldView textInputTestID=\\"tfConfirmPassword\\" label=\\"Confirm Password*\\" text=\\"\\" isSecure={true} error={[Function: error]} onChangeText={[Function: onChangeText]} onBlur={[Function: onBlur]} onFocus={[Function: onFocus]} />
+      <View style={{...}}>
+        <View style={{...}}>
+          <Button title=\\"Submit\\" isDisabled={true} onPress={[Function: _callee]} />
+        </View>
+      </View>
+    </ScrollView>
+  </ForwardRef(SafeAreaView)>
+  <LoadingView text=\\"Please wait...\\" />
+</View>"
+`;
+
+exports[`Registration Screen Tests can test Registration Page (without loading) 1`] = `
+"<View style={{...}}>
+  <ForwardRef(SafeAreaView)>
+    <ScrollView>
+      <TextFieldView textInputTestID=\\"tfUsername\\" label=\\"Username*\\" text=\\"\\" error={[Function: error]} onChangeText={[Function: onChangeText]} onBlur={[Function: onBlur]} onFocus={[Function: onFocus]} />
+      <TextFieldView textInputTestID=\\"tfPassword\\" isSecure={true} isSecureTextVisible={false} isSecureTextField={true} onPasswordShowHideButtonPress={[Function: onPasswordShowHideButtonPress]} label=\\"Password*\\" text=\\"\\" error={[Function: error]} onChangeText={[Function: onChangeText]} onBlur={[Function: onBlur]} onFocus={[Function: onFocus]} />
+      <TextFieldView textInputTestID=\\"tfConfirmPassword\\" label=\\"Confirm Password*\\" text=\\"\\" isSecure={true} error={[Function: error]} onChangeText={[Function: onChangeText]} onBlur={[Function: onBlur]} onFocus={[Function: onFocus]} />
+      <View style={{...}}>
+        <View style={{...}}>
+          <Button title=\\"Submit\\" isDisabled={true} onPress={[Function: _callee]} />
+        </View>
+      </View>
+    </ScrollView>
+  </ForwardRef(SafeAreaView)>
+</View>"
+`;
